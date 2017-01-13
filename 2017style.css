@@ -1,0 +1,246 @@
+.regional-header{
+	background-image: url("../images/regional-header-2.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.regional-header2{
+	background-image: url("../images/meet_your_host_header.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;	
+}
+
+.regional-header3{
+	background-image: url("../images/elevate_now_toolkit_header.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;	
+}
+
+a {
+	color: #80bd41;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #80bd41;
+}
+
+a:active {
+	color: #80bd41;
+}
+
+a:visited {
+	color: #80bd41;
+}
+
+.register a{
+	transition: color 1s;
+}
+
+.register-button:hover{
+	border-color: #80bd41;
+	
+}
+
+.register-button{
+	
+	display:inline-block;
+	margin: 0px;
+	text-align: center;
+	border: 2px solid #fff;
+	padding: 20px;
+	width: 300px;
+	border-radius: 5px 5px 5px 5px;
+	transition: border-color 1s;
+}
+
+.about-section{
+	padding-top: 40px;
+	
+}
+
+.resources{
+	padding-top: 40px;
+}
+
+li{
+	list-style-type:circle;
+	
+}
+.resource-list a{
+	color: #00a2af;
+	text-decoration:underline;
+	
+}
+
+
+.register{
+	
+	background-image: url("../images/register-bg2.jpg");
+	
+	margin: auto;
+	padding-top: 110px;
+	text-align: center;
+	background-repeat:repeat;	background-color:#76236d;
+	height: 300px;
+	
+}
+
+.register register-button{
+	margin: 0px;
+	text-align: center;
+	
+}
+.register-button a{
+	color: #fff;
+	font-size:36px;
+	text-align: center;
+}
+
+/* Tabs */
+
+/*----- Tabs -----*/
+
+table{
+	border-color: #00a2af;
+	
+	
+}
+.tabs {
+    width:100%;
+    display:inline-block;
+	padding-bottom: 60px;
+	
+}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+	
+	.footer-section{
+		font-size: 16px;
+		padding: 70px 0px 70px 0px;
+	}
+	
+	.footer-icons{
+		text-align: right;
+	}
+	
+	.footer-icons img{
+		
+		margin-top: -20px;
+		display:inline;
+	}
+ 
+ .tab-links{
+	 
+	 margin:0px;
+	 
+ }
+    .tab-links li {
+        margin:0px 0px;
+        float:left;
+        list-style:none;
+		
+    }
+ 
+        .tab-links a {
+            padding:9px 20px;
+            display:inline-block;
+            
+            
+            font-size:16px;
+            font-weight:600;
+            color:#fff;
+            transition:all linear 0.15s;
+        }
+ 
+        .tab-links a:hover {
+            background:#00a2af;
+			opacity: 0.5;
+            text-decoration:none;
+        }
+ 
+    li.active a, li.active a:hover {
+		background-color: #fff;
+        
+        color:#4c4c4c;
+    }
+	
+ 
+    /*----- Content of Tabs -----*/
+    .tab-content {
+        padding:15px;
+        
+        border-bottom: 2px solid #00a2af;
+		 border-left: 2px solid #00a2af;
+		  border-right: 2px solid #00a2af;
+        background:#fff;
+    }
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab.active {
+            display:block;
+			
+        }
+		
+		@media only screen and (max-width: 600px){
+			.register{
+				
+			background-position: 50% 20%;
+			}
+			
+			.regional-header{
+				background-image: url("../images/regional-header-2-small.jpg");
+				background-position: 50% 100%;
+				
+			}
+			.regional-header2{
+				background-image: url("../images/meet_your_host_header_small.jpg");
+				background-position: 50% 100%;
+				
+			}
+			.regional-header3{
+				background-image: url("../images/elevate_now_toolkit_header_small.jpg");
+				background-position: 50% 100%;
+				
+			
+			.footer-p {
+				padding-bottom: 5px;
+				text-align: center;
+			}
+			
+			.footer-section{
+				padding-bottom: 175px;
+				
+			}
+			
+			.footer-icons{
+				margin-top: 0px;
+				text-align: center;
+				padding-top: 30px;
+				padding-bottom: 30px;
+			}
+		}
+		
+		@media only screen and (min-width: 1920px){
+			.register{
+				background-size: cover;
+				
+				
+			}
+		.regional-header{
+			background-position: 100% 50%;
+		}
+		}
+		
+		
+		
+		
